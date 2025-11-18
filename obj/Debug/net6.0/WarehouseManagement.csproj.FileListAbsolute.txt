@@ -1,0 +1,15 @@
+/workspaces/pksduo/bin/Debug/net6.0/WarehouseManagement
+/workspaces/pksduo/bin/Debug/net6.0/WarehouseManagement.deps.json
+/workspaces/pksduo/bin/Debug/net6.0/WarehouseManagement.runtimeconfig.json
+/workspaces/pksduo/bin/Debug/net6.0/WarehouseManagement.dll
+/workspaces/pksduo/bin/Debug/net6.0/WarehouseManagement.pdb
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.AssemblyInfoInputs.cache
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.AssemblyInfo.cs
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.csproj.CoreCompileInputs.cache
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.sourcelink.json
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.dll
+/workspaces/pksduo/obj/Debug/net6.0/refint/WarehouseManagement.dll
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.pdb
+/workspaces/pksduo/obj/Debug/net6.0/WarehouseManagement.genruntimeconfig.cache
+/workspaces/pksduo/obj/Debug/net6.0/ref/WarehouseManagement.dll

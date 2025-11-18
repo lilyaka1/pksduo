@@ -202,27 +202,6 @@ namespace WarehouseManagement
             {
                 warehousesToCheck = warehouses.Where(w => w.Type != "утилизация").ToList();
             }
-
-            // Проверяем каждый склад
-            foreach (var warehouse in warehousesToCheck)
-            {
-                // Копируем список для безопасной итерации
-                List<Product> expiredProducts = warehouse.Products.Where(p => p.DaysUntilExpiry <= 0).ToList();
-
-                foreach (var product in expiredProducts)
-                {
-                    if (disposalWarehouse.GetFreeVolume() >= product.VolumePerUnit)
-                    {
-                        warehouse.RemoveProduct(product);
-                        disposalWarehouse.AddProduct(product);
-                        Console.WriteLine($"[ЛОГ] Просроченный товар '{product.Name}' (объем: {product.VolumePerUnit} м³) → со склада ID {warehouse.Id} → на склад утилизации ID {disposalWarehouse.Id}");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"[ОШИБКА] Недостаточно места на складе утилизации для товара '{product.Name}'");
-                    }
-                }
-            }
         }
 
         // Метод анализа складской сети
@@ -289,20 +268,3 @@ namespace WarehouseManagement
             }
         }
 
-        // Метод подсчета стоимости товаров на конкретном складе
-        public void CalculateWarehouseValue(int warehouseId)
-        {
-            Console.WriteLine("\n=== ПОДСЧЕТ СТОИМОСТИ ===");
-            
-            Warehouse warehouse = warehouses.FirstOrDefault(w => w.Id == warehouseId);
-            if (warehouse == null)
-            {
-                Console.WriteLine($"[ОШИБКА] Склад ID {warehouseId} не найден");
-                return;
-            }
-
-            double totalValue = warehouse.CalculateTotalValue();
-            Console.WriteLine($"Общая стоимость товаров на складе ID {warehouseId}: {totalValue} руб.");
-        }
-    }
-}
