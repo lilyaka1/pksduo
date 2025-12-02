@@ -1,0 +1,295 @@
+[
+  {
+    "Id": 1,
+    "Type": "Cold",
+    "Volume": 1000,
+    "Address": "ул. Холодная, 1",
+    "OccupiedVolume": 171,
+    "FreeVolume": 829,
+    "ProductsCount": 13,
+    "Products": [
+      {
+        "Id": 6,
+        "SupplierId": 104,
+        "Name": "Молоко 3.2%",
+        "Volume": 20,
+        "Price": 85,
+        "DaysUntilExpiry": 7
+      },
+      {
+        "Id": 7,
+        "SupplierId": 104,
+        "Name": "Йогурт натуральный",
+        "Volume": 15,
+        "Price": 65,
+        "DaysUntilExpiry": 14
+      },
+      {
+        "Id": 8,
+        "SupplierId": 105,
+        "Name": "Мясо говядина",
+        "Volume": 25,
+        "Price": 650,
+        "DaysUntilExpiry": 5
+      },
+      {
+        "Id": 9,
+        "SupplierId": 105,
+        "Name": "Курица охлажденная",
+        "Volume": 18,
+        "Price": 320,
+        "DaysUntilExpiry": 10
+      },
+      {
+        "Id": 10,
+        "SupplierId": 106,
+        "Name": "Рыба форель",
+        "Volume": 22,
+        "Price": 580,
+        "DaysUntilExpiry": 4
+      },
+      {
+        "Id": 11,
+        "SupplierId": 106,
+        "Name": "Сметана 20%",
+        "Volume": 12,
+        "Price": 95,
+        "DaysUntilExpiry": 15
+      },
+      {
+        "Id": 20,
+        "SupplierId": 112,
+        "Name": "Зелень укроп",
+        "Volume": 2,
+        "Price": 55,
+        "DaysUntilExpiry": 2
+      },
+      {
+        "Id": 21,
+        "SupplierId": 112,
+        "Name": "Салат айсберг",
+        "Volume": 3,
+        "Price": 75,
+        "DaysUntilExpiry": 5
+      },
+      {
+        "Id": 22,
+        "SupplierId": 113,
+        "Name": "Творог 9%",
+        "Volume": 10,
+        "Price": 125,
+        "DaysUntilExpiry": 7
+      },
+      {
+        "Id": 25,
+        "SupplierId": 115,
+        "Name": "Испорченное молоко",
+        "Volume": 18,
+        "Price": 80,
+        "DaysUntilExpiry": -3
+      },
+      {
+        "Id": 26,
+        "SupplierId": 115,
+        "Name": "Протухшая рыба",
+        "Volume": 12,
+        "Price": 400,
+        "DaysUntilExpiry": -1
+      },
+      {
+        "Id": 29,
+        "SupplierId": 117,
+        "Name": "Торт бисквитный",
+        "Volume": 8,
+        "Price": 380,
+        "DaysUntilExpiry": 0
+      },
+      {
+        "Id": 30,
+        "SupplierId": 117,
+        "Name": "Пирожное эклер",
+        "Volume": 6,
+        "Price": 120,
+        "DaysUntilExpiry": 0
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Type": "Sorting",
+    "Volume": 1500,
+    "Address": "ул. Центральная, 2",
+    "OccupiedVolume": 58,
+    "FreeVolume": 1442,
+    "ProductsCount": 5,
+    "Products": [
+      {
+        "Id": 12,
+        "SupplierId": 107,
+        "Name": "Сыр твердый",
+        "Volume": 10,
+        "Price": 420,
+        "DaysUntilExpiry": 25
+      },
+      {
+        "Id": 13,
+        "SupplierId": 107,
+        "Name": "Печенье овсяное",
+        "Volume": 20,
+        "Price": 140,
+        "DaysUntilExpiry": 60
+      },
+      {
+        "Id": 14,
+        "SupplierId": 108,
+        "Name": "Хлеб белый",
+        "Volume": 5,
+        "Price": 45,
+        "DaysUntilExpiry": 3
+      },
+      {
+        "Id": 15,
+        "SupplierId": 108,
+        "Name": "Колбаса вареная",
+        "Volume": 8,
+        "Price": 280,
+        "DaysUntilExpiry": 12
+      },
+      {
+        "Id": 16,
+        "SupplierId": 109,
+        "Name": "Чай черный",
+        "Volume": 15,
+        "Price": 180,
+        "DaysUntilExpiry": 365
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Type": "General",
+    "Volume": 2000,
+    "Address": "ул. Складская, 3",
+    "OccupiedVolume": 325,
+    "FreeVolume": 1675,
+    "ProductsCount": 12,
+    "Products": [
+      {
+        "Id": 1,
+        "SupplierId": 101,
+        "Name": "Консервы тушенка",
+        "Volume": 50,
+        "Price": 250,
+        "DaysUntilExpiry": 365
+      },
+      {
+        "Id": 2,
+        "SupplierId": 101,
+        "Name": "Крупа гречневая",
+        "Volume": 30,
+        "Price": 120,
+        "DaysUntilExpiry": 180
+      },
+      {
+        "Id": 3,
+        "SupplierId": 102,
+        "Name": "Макароны спагетти",
+        "Volume": 40,
+        "Price": 85,
+        "DaysUntilExpiry": 90
+      },
+      {
+        "Id": 4,
+        "SupplierId": 102,
+        "Name": "Сахар",
+        "Volume": 45,
+        "Price": 95,
+        "DaysUntilExpiry": 730
+      },
+      {
+        "Id": 5,
+        "SupplierId": 103,
+        "Name": "Мука пшеничная",
+        "Volume": 35,
+        "Price": 70,
+        "DaysUntilExpiry": 120
+      },
+      {
+        "Id": 17,
+        "SupplierId": 110,
+        "Name": "Растительное масло",
+        "Volume": 28,
+        "Price": 150,
+        "DaysUntilExpiry": 180
+      },
+      {
+        "Id": 18,
+        "SupplierId": 110,
+        "Name": "Соль поваренная",
+        "Volume": 25,
+        "Price": 35,
+        "DaysUntilExpiry": 1825
+      },
+      {
+        "Id": 19,
+        "SupplierId": 111,
+        "Name": "Кофе молотый",
+        "Volume": 12,
+        "Price": 320,
+        "DaysUntilExpiry": 240
+      },
+      {
+        "Id": 23,
+        "SupplierId": 114,
+        "Name": "Просроченные консервы",
+        "Volume": 15,
+        "Price": 200,
+        "DaysUntilExpiry": -10
+      },
+      {
+        "Id": 24,
+        "SupplierId": 114,
+        "Name": "Просроченная мука",
+        "Volume": 20,
+        "Price": 60,
+        "DaysUntilExpiry": -5
+      },
+      {
+        "Id": 27,
+        "SupplierId": 116,
+        "Name": "Сок апельсиновый",
+        "Volume": 15,
+        "Price": 95,
+        "DaysUntilExpiry": 30
+      },
+      {
+        "Id": 28,
+        "SupplierId": 116,
+        "Name": "Джем клубничный",
+        "Volume": 10,
+        "Price": 145,
+        "DaysUntilExpiry": 30
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Type": "Disposal",
+    "Volume": 500,
+    "Address": "ул. Утилизации, 4",
+    "OccupiedVolume": 0,
+    "FreeVolume": 500,
+    "ProductsCount": 0,
+    "Products": []
+  },
+  {
+    "Id": 5,
+    "Type": "Sorting",
+    "Volume": 50000,
+    "Address": "Пушкино 2",
+    "OccupiedVolume": 0,
+    "FreeVolume": 50000,
+    "ProductsCount": 0,
+    "Products": []
+  }
+]

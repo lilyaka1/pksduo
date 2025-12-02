@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 100,
+    "SupplierId": 200,
+    "Name": "Тестовый товар",
+    "Volume": 15,
+    "Price": 850,
+    "DaysUntilExpiry": 90
+  },
+  {
+    "Id": 101,
+    "SupplierId": 200,
+    "Name": "Тестовый товар2",
+    "Volume": 12,
+    "Price": 650,
+    "DaysUntilExpiry": 180
+  },
+  {
+    "Id": 102,
+    "SupplierId": 201,
+    "Name": "Тестовый товар3",
+    "Volume": 8,
+    "Price": 120,
+    "DaysUntilExpiry": 5
+  }
+]

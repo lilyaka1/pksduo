@@ -1,0 +1,5 @@
+/Users/lilyaka/Desktop/раб.тетради/пкс/pksduo-main/obj/Debug/net8.0/WarehouseManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lilyaka/Desktop/раб.тетради/пкс/pksduo-main/obj/Debug/net8.0/WarehouseManagement.AssemblyInfoInputs.cache
+/Users/lilyaka/Desktop/раб.тетради/пкс/pksduo-main/obj/Debug/net8.0/WarehouseManagement.AssemblyInfo.cs
+/Users/lilyaka/Desktop/раб.тетради/пкс/pksduo-main/obj/Debug/net8.0/WarehouseManagement.csproj.CoreCompileInputs.cache
+/Users/lilyaka/Desktop/раб.тетради/пкс/pksduo-main/obj/Debug/net8.0/WarehouseManagement.sourcelink.json
